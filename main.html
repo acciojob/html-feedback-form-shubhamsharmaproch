@@ -7,7 +7,7 @@
 </head>
 
 <body>
-	<form>
+	<form method="POST" action="/submit-form">
 		<h1>Feedback Form</h1>
 	<!-- the entire body must be written by student --><div>
     <label for="name">Name:</label>
@@ -21,12 +21,7 @@
 
   <div>
     <label for="favColor">Favorite Color:</label>
-    <select id="favColor" name="favColor">
-      <option value="red">Red</option>
-      <option value="blue">Blue</option>
-      <option value="green">Green</option>
-      <option value="yellow">Yellow</option>
-    </select>
+    <input type="color" value="favcolor" id="favcolor">
   </div>
 
   <div>
